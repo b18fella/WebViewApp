@@ -12,6 +12,7 @@ import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
     // Create a private member variable that can hold our WebView
+    //lol
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
