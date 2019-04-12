@@ -12,7 +12,6 @@ import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
     // Create a private member variable that can hold our WebView
-    //lol
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,16 +21,16 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Created an WebView
+        // Create a WebView
         WebView webView = new WebView(this);
 
         // Set the WebView as active
         setContentView(webView);
 
-        // Run the WebView
-        // webView.loadUrl("https://wwwlab.iit.his.se/b18fella/lectures_duggor/webbplatsdesign/app-prototyp/");
+        // Run an External URL with that WebView
+        webView.loadUrl("https://wwwlab.iit.his.se/b18fella/lectures_duggor/webbplatsdesign/app-prototyp/");
 
-        // Run the WebView with another page
+        // Run an Internal URL with that WebView
         webView.loadUrl("file:///android_asset/img/about.html");
 
 
