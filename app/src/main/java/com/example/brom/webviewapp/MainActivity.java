@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = new WebView(this);
 
         // Set the WebView as active
-        setContentView(webView);
+        // setContentView(webView);
 
         // Run an External URL with that WebView
-        webView.loadUrl("https://wwwlab.iit.his.se/b18fella/lectures_duggor/webbplatsdesign/app-prototyp/");
+        // webView.loadUrl("https://wwwlab.iit.his.se/b18fella/lectures_duggor/webbplatsdesign/app-prototyp/");
 
         // Run an Internal URL with that WebView
-        webView.loadUrl("file:///android_asset/img/about.html");
+        // webView.loadUrl("file:///android_asset/img/about.html");
 
 
         // 1. Create a WebView element in the layout file content_main.xml
